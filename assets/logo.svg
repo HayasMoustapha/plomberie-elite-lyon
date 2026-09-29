@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Plomberie Élite — monogramme : un coude de tuyau qui forme un "E", une goutte en laiton -->
+  <defs>
+    <linearGradient id="lg-pipe" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#93C5FD"/>
+      <stop offset=".55" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="lg-brass" x1="30" y1="26" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCD34D"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="13" fill="#11111B" stroke="rgba(255,255,255,.14)"/>
+  <path d="M33 11H19a6 6 0 0 0-6 6v14a6 6 0 0 0 6 6h6" stroke="url(#lg-pipe)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M13 24h13" stroke="url(#lg-pipe)" stroke-width="4.5" stroke-linecap="round"/>
+  <rect x="30" y="8" width="5" height="6" rx="1.5" fill="#E5E7EB"/>
+  <path d="M36 27s-5 5.2-5 9a5 5 0 0 0 10 0c0-3.8-5-9-5-9z" fill="url(#lg-brass)"/>
+</svg>
